@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MMCalendar_Tests' do
+  pod 'MMCalendar', :path => '../'
+  
+  
+end
