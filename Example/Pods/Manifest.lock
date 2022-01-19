@@ -1,0 +1,16 @@
+PODS:
+  - MMCalendar (0.1.0)
+
+DEPENDENCIES:
+  - MMCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  MMCalendar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMCalendar: a5d7953431ef5610bb69e3bdb746822f7e24e54d
+
+PODFILE CHECKSUM: 685d3a3a1faf0f6954a864789cc79ac1244f55e0
+
+COCOAPODS: 1.11.2

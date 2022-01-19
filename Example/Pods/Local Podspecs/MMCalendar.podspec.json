@@ -1,0 +1,22 @@
+{
+  "name": "MMCalendar",
+  "version": "0.1.0",
+  "summary": "A short description of MMCalendar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mir/MMCalendar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mir": "mtaqi@elm.sa"
+  },
+  "source": {
+    "git": "https://github.com/Mir/MMCalendar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MMCalendar/Classes/**/*"
+}

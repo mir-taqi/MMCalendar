@@ -22,7 +22,7 @@ pod 'MMCalendar'
 
 ## Author
 
-Mir, mtaqi@elm.sa
+Mir
 
 ## License
 
