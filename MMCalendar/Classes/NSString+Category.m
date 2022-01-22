@@ -11,7 +11,7 @@
 @implementation NSString (Category)
 
 -(BOOL) isRTLCalendar{
-    NSArray *rtlId = @[NSCalendarIdentifierIslamicCivil,NSCalendarIdentifierArabic,
+    NSArray *rtlId = @[NSCalendarIdentifierIslamicCivil,
                        NSCalendarIdentifierIslamicUmmAlQura,NSCalendarIdentifierIslamic];
     return [rtlId containsObject:self];
 }

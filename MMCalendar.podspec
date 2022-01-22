@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "MMCalendar is more customizable and easy to use."
+  s.description      = "A convenience cocoapod for date pickoing and it is more customizable and easy to use."
 
   s.homepage         = 'https://github.com/Mir/MMCalendar'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

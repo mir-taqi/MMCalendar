@@ -1627,15 +1627,15 @@ typedef NS_ENUM(NSUInteger, MMCalendarOrientation) {
     cell.weekend = [self.gregorian isDateInWeekend:date];
     cell.monthPosition = [self.calculator monthPositionForIndexPath:indexPath];
     switch (self.transitionCoordinator.representingScope) {
-        case FSCalendarScopeMonth: {
-            cell.placeholder = (cell.monthPosition == FSCalendarMonthPositionPrevious || cell.monthPosition == FSCalendarMonthPositionNext) || ![self isDateInRange:date];
+        case MMCalendarScopeMonth: {
+            cell.placeholder = (cell.monthPosition == MMCalendarMonthPositionPrevious || cell.monthPosition == MMCalendarMonthPositionNext) || ![self isDateInRange:date];
             if (cell.placeholder) {
                 cell.selected &= _pagingEnabled;
                 cell.dateIsToday &= _pagingEnabled;
             }
             break;
         }
-        case FSCalendarScopeWeek: {
+        case MMCalendarScopeWeek: {
             cell.placeholder = ![self isDateInRange:date];
             break;
         }
